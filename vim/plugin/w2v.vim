@@ -6,7 +6,7 @@ function! s:w2v_search(expr) abort
     return
   endif
   let cmd = printf('w2v-repl -f %s -q %s', shellescape(s:w2v_model), shellescape(expr))
-  let result = system('w2v-repl -q ' . shellescape(expr))
+  let result = system(cmd)
   if v:shell_error
     redraw
     echohl Error | echom substitute(iconv(result, 'char', &encoding), '\n', '', 'g') | echohl None
