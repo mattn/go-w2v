@@ -1,5 +1,8 @@
 package main
 
+//go:generate golex -o tokenizer.go tokenizer.l
+//go:generate goyacc -o expr.go expr.y
+
 import (
 	"bufio"
 	"flag"
