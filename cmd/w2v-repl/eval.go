@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"strings"
 
-	"github.com/mattn/komachi"
+	"github.com/mattn/go-w2v"
 )
 
 type eval struct {

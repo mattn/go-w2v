@@ -5,7 +5,7 @@ import __yyfmt__ "fmt"
 
 //line expr.y:2
 import (
-	"github.com/mattn/komachi"
+	"github.com/mattn/go-w2v"
 )
 
 //line expr.y:10

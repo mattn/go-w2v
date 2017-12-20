@@ -2,7 +2,7 @@
 package main
 
 import (
-	"github.com/mattn/komachi"
+	"github.com/mattn/go-w2v"
 )
 
 %}

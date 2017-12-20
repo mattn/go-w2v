@@ -11,7 +11,7 @@ import (
 	"unicode"
 
 	"github.com/cznic/golex/lex"
-	"github.com/mattn/komachi"
+	"github.com/mattn/go-w2v"
 )
 
 type lexer struct {

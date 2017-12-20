@@ -9,7 +9,7 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/ikawaha/kagome/tokenizer"
-	"github.com/mattn/komachi"
+	"github.com/mattn/go-w2v"
 )
 
 var re = regexp.MustCompile(`[\[\]「」『』()（）、。*:]`)
